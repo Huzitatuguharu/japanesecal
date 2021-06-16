@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日本人のための電卓</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+</head>
+<div class="container" id="container">
+
+  <div id="calculator">
+    <!-- answer -->
+    <input type="text" name="answer" id="answer" value="" placeholder="0" disabled="disabled" maxlength="9">
+
+    <!-- ボタンに数字を入れていく -->
+
+    <div class='buttonara'>
+
+      <div class="row">
+        <input class="button" id="clear" type="button" value="AC">
+        <input class="button kigou" id="plusminus" type="button" value="+/-">
+        <input class="button kigou" id="percent" type="button" value="%">
+        <input class="button kigou" id="devision" type="button" value="÷">
+      </div>
+
+      <div class="row">
+        <input class="button number " id="seven" type="button" value="7">
+        <input class="button number" id="eight"type="button" value="8">
+        <input class="button number" id="nine"type="button" value="9">
+        <input class="button kigou" id="multiplication" type="button" value="×">
+      </div>
+
+      <div class="row">
+        <input class="button number" id="" type="button" value="">
+        <input class="button number" id="five" type="button" value="5">
+        <input class="button number" id="six" type="button" value="6">
+        <input class="button kigou" id="substraction" type="button" value="-">
+      </div>
+
+      <div class="row">
+        <input class="button number" id="one" type="button" value="1">
+        <input class="button number" id="two" type="button" value="2">
+        <input class="button number" id="three" type="button" value="3">
+        <input class="button kigou" id="addition" type="button" value="+">
+      </div>
+
+      <div class="row">
+        <input class="button number" id="zero" type="button" value="0">
+        <input class="button number" id="zerozero" type="button" value="00">
+        <input class="button kigou" id="dot" type="button" value=".">
+        <input class="button kigou" id="equal" type="button" value="=">
+      </div>
+
+    </div>
+
+  </div><!-- calculator -->
+
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript" src="dentaku.js"></script>
+</body>
+
+</html>
